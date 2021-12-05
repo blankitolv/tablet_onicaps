@@ -1,0 +1,37 @@
+.box {
+     // display: block;
+     // width: fit-content;
+     position:sticky;
+     top: 50%;
+     z-index: 3;
+     form {
+          width: fit-content;
+          position: relative;
+          padding: 20px;
+          left: 89%;
+          background-color: rgb(75, 75, 75);
+          border: 2px solid black;
+          border-radius: 10px 10px;
+     }
+     .linea {
+          input {
+               width: 30px;
+               height: 30px;
+               padding: 30px;
+               cursor: pointer;
+               border: 3px solid black;
+               transition: .5s;
+               &:checked {
+                    background: blueviolet;
+                    background-color: chartreuse;
+               }
+               &:hover {
+                    transition: .5s;
+                    transform:scale(1.2)
+               }
+          }
+     }
+}
+// #portfolio {
+//      width: 100vw;
+// }

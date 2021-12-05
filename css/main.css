@@ -1,0 +1,41 @@
+.box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50%;
+  z-index: 3;
+}
+
+.box form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  padding: 20px;
+  left: 89%;
+  background-color: #4b4b4b;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+}
+
+.box .linea input {
+  width: 30px;
+  height: 30px;
+  padding: 30px;
+  cursor: pointer;
+  border: 3px solid black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.box .linea input:checked {
+  background: blueviolet;
+  background-color: chartreuse;
+}
+
+.box .linea input:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=main.css.map */
